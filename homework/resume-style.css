@@ -5,7 +5,7 @@ h2 {
     border-style: solid;
 }
 p#gradientBG {
-    background-image: url("./images/gradient_bg.png");
+    background-image: url("images/gradient_bg.png");
     background-repeat: repeat-x;
 }     
 body {
