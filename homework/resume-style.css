@@ -1,0 +1,47 @@
+{
+    font-family: sans-serif;
+}
+h2 {
+    border-style: solid;
+}
+p#gradientBG {
+    background-image: url("./images/gradient_bg.png");
+    background-repeat: repeat-x;
+}     
+body {
+    background-color: #ccc;
+}
+h1 {
+    font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    color: black;
+}
+section {
+    background-color: #ccc;
+    padding: 10px;
+}
+p#gradientBG {
+    background-image: url("../week4/week04-02-homework-files/gradient_bg.png");
+    background-repeat: repeat-x;
+}
+section {            
+    padding: 5px;
+    margin: 15px;
+   
+    border: 5px solid  rgb(75, 73, 73);
+}
+section {
+    font-family: 'Lato', sans-serif;
+    line-height: 21px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    color: black;
+}
+hr{
+    border: 1px solid black;
+}
+ul1 {
+    list-style-type: none;
+}
