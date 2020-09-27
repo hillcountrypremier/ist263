@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>IST 263</title>
+
+    <style>
+        
+       ul {
+            margin: 5px;
+            padding: 5px;
+            list-style-type: none;
+            width: 33%;
+        }
+
+        li {
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px ;
+        }
+        .odd {
+            background: #f1f1f1;
+        }
+        
+        .even {
+            background: #e1e1e1;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>CSS Selectors</h1>
+    <hr>
+    <h2>This is my shopping list</h2>
+    <img src="../week05-02-homework-files/shopping-list.png" alt="Shopping List">
+
+    <p>I want to add <u>internal</u> CSS to change the list below to look like the list image above.</p>
+    <ul>
+        <li class="odd">Coffee</li>
+        <li class="even">Oats</li>
+        <li class="odd">Milk</li>
+        <li class="even">Maple Syrup</li>
+    </ul>
+    
+</body>
+
+</html>
