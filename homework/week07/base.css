@@ -1,0 +1,165 @@
+* {font-family: sans-serif;}
+nav ul {
+    list-style-type: none;
+}
+.page-container {width: 1024px; margin: 0 auto; padding: 0;}
+#logo {width: 150px; height: 150px; float: left; text-align: center;}
+#search {width: 20em; height: 4em; float: right;}
+#search input {width: 17em; height: 3em; float: left;}
+#search-btn {width: 3em; height: 3em; background-color: #ccc; float: right; padding: 0 1em; text-align: center;}
+#search-btn i {padding: 30% 0;}
+#top-panel {margin: 1em 1.5em 1em 1em;}
+#top-banner {background:url(images/W7-lab-banner-background.png) no-repeat;height:320px;}
+#banner-heading {background-color: #fff; margin-left:2em; margin-top: 4em; width: 30%; padding: 0.5em; display: inline-block;}
+#banner-list {padding: 1em;}
+#page-center {margin: 0 2em 0 0;}
+#bottom-row {margin: 1em 0; border-bottom:3px solid #666;}
+#social {padding-left: 1em;}
+.grid-row {padding: 1em 0 1em 1em;}
+#extra-img {float: left; padding: 2em 1em;}
+#extra-img img {float: left;}
+#extra-img p {display: inline-block; margin-left: 1em;}
+li.spaced-list {padding-bottom: 1.5em;}
+header {height: 8em; margin: 1em 0; padding: 0;}
+nav {height: 26px; margin: 1em 0; padding: 10px 0 20px 10px; background-color: #ccc; font-size: 32px;}
+.padded {background-color: #ccc; padding: 1em; margin: .75em 0;}
+#center-right {padding: 1em 0 0 1em; margin: 0;}
+#carousel .col {margin: 1em 0 1em 1em;}
+
+/* 
+Review the rest of this CSS file and add comments. The goal of the review is to give you an idea of how this file can be
+reused for future class and individual project work.
+
+The comments should detail
+- What does the class do?
+- What will be a good use case of this class?
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+- Used to apply stying to a group of related things in the container element, margin creates space around the elemnets and width sets how wide the container of elements should be - responsive pixel 
+- This is good to use when you have a container of elements that you want to have styling applied to. You could contain a set of information, a list, etc. and you want specific spacing and styling set to that box of information
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+- Used to specifiy an items size and in the HTML for this assignment was set it to flex meaning that it will be flexible in length depending on the device.
+- This will be good to use when we want to set certain elements to be flexible in our code, instead of a set position on the device
+
+.col {
+  display: flex;
+}
+- Used when you do not need a particular sized column but want to style the column
+- Will be good to use when there is not a set size for the column but they need to lign up together
+
+.col-1 {
+  flex: 1;
+}
+- This class sets the width to 8.33%
+- Good to use when you want the comlumn to take up a small amount of space on the left side of the page
+
+.col-2 {
+  flex: 2;
+}
+- This class sets the width to 16.66%
+- Also good to use when you want the code to only take up part of the column instead of the entire line
+
+.col-3 {
+  flex: 3;
+}
+- This class sets the width to 25%
+- When you want the page to be evenly set in quarters
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+- Used to scale to fit any browser size
+- Needed for the project so specifally images will fit to the browser size on a mobile device and not look distorted
+
+.text-center {
+  text-align: center;
+}
+- Sets how you want text to appear and in this case it is set to be centered 
+- Good for visual design and how you want your text to appear on the page
+
+.text-right {
+  text-align: right;
+}
+- Right alligns text on the page instead of left align or centered
+- Good if you want the text to be on the right side of an element
+
+.card {
+  border: 1px solid #ccc;
+}
+- Used to create more demension to an element by adding a background around an image and then adding other elements ontop
+- Would be good to use on my project when I want to put a label under a photo
+
+.rounded-border {
+  border-radius: 5px;
+}
+- Border of an element is rounded instead of being a rectangle
+- Can be used for visual appeal especially on the link buttons for my website
+
+.m-1 {
+  margin: 10px;
+}
+- Sets margin to .25rem (4px if font-size is 16px)
+- Can be used to create better spacing for margins on the website depending on font-size
+
+.mt-1 {
+  margin-top: 10px;
+}
+- Sets margin top to .25rem
+- Only changes the top margin if you do not want a margin around the rest of the text - could be used on the card images when I want space between the image and text
+
+.ml-1 {
+  margin-left: 10px;
+}
+- Sets margin left to .25rem
+- Could be used if we only want the left margin to be changed
+
+.mr-1 {
+  margin-right: 10px;
+}
+- Sets margin right to .25rem
+- Could be used if we only want the right margin to be changed
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+- Set margin bottom to .25rem
+- Could be used if we only want the bottom margin to be changed
+
+.p-1 {
+  padding: 10px;
+}
+- Sets padding to .25rem(4px if font-size is 16px)
+- Could be used if we want padding around our element
+
+.pt-1 {
+  padding-top: 10px;
+}
+- Sets padding top to .25rem
+- Could be used if we only want padding on the top
+
+.pl-1 {
+  padding-left: 10px;
+}
+- Sets padding on the left to .25rem
+- Could be used if we only want padding on the left
+
+.pr-1 {
+  padding-right: 10px;
+}
+- Sets padding on the right to .25rem
+- Could be used if we only want padding on the right
+
+.pb-1 {
+  padding-bottom: 10px;
+}
+- Sets padding on the bottom to .25rem
+- Could be used if we only want padding on the bottom
+#/
