@@ -1,0 +1,231 @@
+* {font-family: 'Raleway', sans-serif;}
+* {box-sizing: border-box;}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    background-color: #e0e2db;
+    margin: 0;
+}
+.top-container {
+    border: none;
+    height: 150px;
+    background: #1A1F23;
+}
+.top-left {
+    position: absolute; 
+    font-size: 26px; 
+    font-weight: bold;
+/* font weight is not showing */
+    top: 8px; 
+    left: 16px;
+    color: #e0e2db;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.menu-items {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.menu-items a {
+    display: block;
+    padding: 8px;
+    background-color:#e0e2db;
+    text-decoration: none;
+    color: black;
+    display: block;
+    display: inline;
+    float: left;
+}
+.menu-items a:hover {
+    background-color: #9684A1;
+}
+.menu-items a.active {
+    background-color: #8B7604;
+    color: #e0e2db;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+#anchors {
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-bottom: -235px;
+}
+.sh-anchor {
+    padding-right: 15px;
+}
+.attractions-anchor {
+    padding-right: 15px;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    top: -55%;
+    transform: translate(0%, 15%);
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+}
+.explore-wimberley-description {
+    margin-top: 30px;
+    border: none;
+    height: 250px;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #686F78;
+    color: #e0e2db;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 10px;
+}
+h3 {
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+}
+#swimming-images {
+    padding-top: 30px;
+    margin-left: 10px;
+}
+h4 {
+    border: none;
+    height: 40px;
+    width: 350px;
+    text-align: center;
+    margin-top: -5px;
+    background-color: #1A1F23;
+    color: #e0e2db ;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.sh-description {
+    margin-top: 30px;
+    border: none;
+    height: 200px;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #5E5068;
+    color: #e0e2db;
+    margin-bottom: 25px;
+    border-color: #1A1F23;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+}
+#attractions-images {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.attractions-description {
+    margin-top: 30px;
+    border: none;
+    height: 200px;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #5E5068;
+    color: #e0e2db;
+    margin-bottom: 25px;
+    border-color: #1A1F23;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+}
+#dt-images {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.dt-description {
+    margin-top: 30px;
+    border: none;
+    height: 200px;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #5E5068;
+    color: #e0e2db;
+    margin-bottom: 25px;
+    border-color: #1A1F23;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+
+}
+.youtube-video {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.youtube-video h4{
+    display: none;
+}
+#follow-us {
+    margin-top: 40px;
+    display: flex;
+    position: absolute;
+    border: none;
+    width: 1440px;
+    height: 400px;
+    background: #33202A;
+}
+.follow-us-title {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    padding-top: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    color:#e0e2db;
+}
+.flex-container {
+    display: flex;
+    position: absolute;
+}
+.col-5 {
+    padding-top: 10px;
+    display: flex ;
+    position: relative;
+    flex-direction: row;
+    transform: translate(50%, 30%);
+    margin: 1em 0 1em 1em;
+}
+.col-4 {
+    border: solid;
+    border-radius: 50%;
+    border-color: #e0e2db;
+    height: 100px;
+    width: 100px;
+    margin: 1em 0 1em 1em;
+    transform: translate(480%, 255%);
+}
+.social-title {
+    text-align: center;
+    transform: translate(0%, 75%);
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
+    color: #e0e2db;
+}
+a {
+    text-decoration: none;
+    color: black;
+}  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
