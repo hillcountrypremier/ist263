@@ -1,0 +1,493 @@
+* {font-family: 'Rubik', sans-serif;}
+* {box-sizing: border-box;}
+.page-container {
+    border: solid;
+    border-width: 10px;
+    color: #1A1F23;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+.img-responsive {
+    max-width: 100%;
+    max-height: 650px;
+    height: auto;
+}
+.flex-container {
+    display: flex;
+}
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+#header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+h1 {
+    display: inline;
+    font-size: 75px;
+    font-family: 'Playfair Display', serif;
+    color: #1A1F23;
+    letter-spacing: 5px;
+}
+.title-bar {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    padding-top: 3px;
+}
+nav ul {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+nav li {
+    padding: 15px;
+    text-align: center;
+}
+.header-image {
+    padding-top: 40px;
+}
+#follow-us {
+    background-color: lightgray;
+}
+#follow-us h4 {
+    padding-top: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-align: center;
+    color: #1A1F23;
+    padding-bottom: 15px;
+}
+#follow-us img {
+    height: 175px;
+}
+#links-social a {
+    border: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #1A1F23;
+    margin: 8px;
+    padding-top: 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.social-title {
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    color: #1A1F23;
+}
+/* Arista Specific CSS */
+#property-description {
+    background-color: #f0f0f0;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 125px;
+}
+#property-description h3 {
+    font-family: 'Cookie', cursive;
+    color: #1A1F23;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#property-description p{
+    text-align: left;
+    font-size: 18px;
+}
+#more {
+    display: none;
+}
+.carousel-caption {
+    color: white;
+    font-size: 20px;
+}
+.carousel {
+    padding-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 40px;
+    height: auto;
+}
+#amenities-title {
+    background-color: #f0f0f0;
+    padding-top: 40px;
+}
+#amenities-title h4 {
+    font-size: 60px;
+    text-align: center;
+    color: #1A1F23;
+    font-family: 'Cookie', cursive;
+}
+#amenities-title p {
+    color: #B68F40;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#card-container {
+    background-color: #f0f0f0;
+    margin-top: -20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#card-container h4 {
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #1A1F23;
+    padding-bottom: 10px;
+}
+#amenities-list h5 {
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+}
+#amenities-list li{
+    list-style-type: circle;
+}
+#gm-content {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+#gm-content h4 {
+    display: none;
+}
+form {
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: 'Playfair Display', serif;
+    color: #1A1F23;
+    margin-bottom: 30px;
+    border: solid;
+    border-width: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+/*why is this not working */
+form h4 {
+    font-size: 200px;
+}
+/* Guest Experience Specific CSS */
+#ge-container {
+    padding-top: 60px;
+}
+#ge-info, #ci-info, #list-of-reviews, #cu-info {
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#ge-info h2, #ci-info h2, #list-of-reviews h2, #cu-info h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+}
+#contact-us {
+    margin-bottom: 40px;
+}
+
+/* Explore Wimberley Specific CSS */
+#anchors {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#anchors a {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #1A1F23;
+}
+#explore-wimberley-description p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    font-size: 18px;
+}
+#explore-wimberley-description h3 {
+    font-family: 'Cookie', cursive;
+    color: #1A1F23;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#swimming img, #attractions img, #day-trips img{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card a {
+    text-align: center;
+    color: #1A1F23;
+}
+.card {
+    border: 0;
+    margin: 0;
+}
+.card-title {
+    font-size: 20px;
+}
+.ew-description {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ew-description h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #B68F40;
+}
+.ew-description p {
+    font-size: 16px;
+}
+#youtube-video h4 {
+    display: none;
+}
+#youtube-video {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+/* responsive code to fit phone */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 50px;
+    }
+    .header-image, #ge-container, #anchors {
+        padding-top: 15px;
+    }
+    #property-description {
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    #property-description h3 {
+        font-size: 35px;
+        padding-bottom: 5px;
+    }
+    #property-description p {
+        font-size: 12px;
+    }
+    .carousel-caption {
+        font-size: 8px;
+    }
+    .carousel {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #amenities-title h4 {
+        font-size: 28px;
+    }
+    #amenities-title p {
+        font-size: 14px;
+    }
+    #amenities-title {
+        padding-top: 20px;
+    }
+    #card-container {
+        margin-top: -40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+    #card-container h4 {
+        font-size: 20px;
+    }
+    #card-container h5 {
+        font-size: 18px;
+    }
+    #card-container li {
+        font-size: 12px;
+    }
+    #outdoor-amenities-list{
+        padding-top: 15px;
+    }
+    #amenities-list ul {
+        padding-left: 50px;
+    }
+    #amenities-list h5 {
+        padding-left: 20px;
+    }
+    #gm-content {
+        margin-top: 15px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 15px;
+    }
+    form {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Playfair Display', serif;
+        color: #1A1F23;
+        margin-bottom: 15px;
+    }
+    #follow-us img{
+        padding-bottom: 10px;
+        height: auto;
+    }
+    #links-social a {
+        width: 75px;
+        height: 75px;
+        padding-top: 20px;
+        margin: 2px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .social-title {
+        font-size: 20px;
+    }
+    #ge-info, #ci-info, #list-of-reviews, #cu-info {
+        padding-top: 15px;
+    }
+    #ge-info h2, #ci-info h2, #list-of-reviews h2, #cu-info h2 {
+        font-size: 30px;
+    }
+    #contact-us {
+        margin-bottom: 20px;
+    }
+    #anchors {
+        padding-bottom: 30px;
+    }
+    #anchors h2{
+        font-size: 25px;
+    }
+    #explore-wimberley-description p {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        text-align: center;
+    }
+    #explore-wimberley-description h3 {
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+    #swimming img, #attractions img, #day-trips img{
+        width: 100%;
+        height: auto;
+    }
+    .ew-description {
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    #youtube-video {
+        height: 300px;
+    }
+}   
+@media (max-width: 1024px) {
+    .carousel {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #colNav {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    #ge-info p, #ci-info ul, #list-of-reviews p, #cu-info ul {
+        font-size: 12px;
+    }
+    .btn-group {
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+    #ge-info p, #ci-info ul, #list-of-reviews p, #cu-info ul {
+        font-size: 17px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #property-description {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    form {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #follow-us img {
+        height: auto;
+        width: 100%;
+        padding: 5px;
+    }
+    .row.sm-padding {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    #links-social a {
+        width: 85px;
+        height: 85px;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+    .social-title {
+        font-size: 25px;
+    }
+    #ge-info, #ci-info, #list-of-reviews, #cu-info {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    #ge-info h2, #ci-info h2, #list-of-reviews h2, #cu-info h2 {
+        font-size: 20px;
+    }
+    .none {
+        display: none;
+    }
+    #contact-us {
+        margin-bottom: 15px;
+    }
+    #gm-content {
+        padding-bottom: 15px;
+    }
+    .ew-description {
+        padding-top: 5px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #youtube-video {
+        height: 300px;
+    }
+    /*how to make now space between the cards */
+}
+
