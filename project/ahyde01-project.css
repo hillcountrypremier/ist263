@@ -134,7 +134,7 @@ nav li {
     background-color: #f0f0f0;
     padding-top: 40px;
 }
-#amenities-title h4 {
+#amenities-title h3 {
     font-size: 60px;
     text-align: center;
     color: #1A1F23;
@@ -308,7 +308,7 @@ form h4 {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    #amenities-title h4 {
+    #amenities-title h3 {
         font-size: 28px;
     }
     #amenities-title h5 {
